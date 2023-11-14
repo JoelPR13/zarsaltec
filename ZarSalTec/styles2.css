@@ -207,7 +207,7 @@ img{
 }
 
 .swiper-slide-ps{
-    width: 350px;
+    width: 450px;
     height: 250px;
     background-color: #000000;
     border-radius: 25px;
@@ -217,11 +217,4 @@ img{
 
 }
 
-/*
-#galeria {
-            margin: 1rem auto;
-            width:100%;
-            max-width:960px;
-            column-count: 3;
-        }
-*/
+
