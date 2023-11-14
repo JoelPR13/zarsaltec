@@ -1,0 +1,227 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background: linear-gradient(to right, #54286E, #014e4c);
+    width: 100%;
+    height: 100px; 
+
+}
+
+
+header {
+    position: sticky;   
+    background: linear-gradient(to right, #54286E, #014e4c);
+    top: 10px; 
+
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    padding: 40px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    background: linear-gradient(to right, #54286E, #014e4c);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffff;
+}
+
+section p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #54286E, #014e4c);
+    color: #ffff;
+    padding: 10px 0;
+    font-size: 11px;
+}
+img{
+    border-radius: 15px;
+
+}
+
+
+/* Estilos para la lista de trabajos */
+#catalogo ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+.swiper{
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+.swiper-slide{
+    width: 350px;
+    height: 450px;
+    background-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0 0 20px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: aqua;
+}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-txt{
+    flex-basis: 20%;
+}
+
+.service-txt h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align:center
+
+}
+
+.service-txt p{
+    font-size: 12px;
+    color:#c4c4c4;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.service-img{
+    flex-basis: 200px;
+    text-align: right;
+    height: 25px;
+    width: 25px;
+}
+
+.service-img img{
+    width: 200px;
+    
+}
+
+
+/* ÍCONOS */
+
+#logo-img {
+    width: 120px; 
+    margin: 20px;
+}
+#map-container {
+    margin-top: 40px; /* Ajusta el valor del margen superior según tus necesidades */
+}
+
+ .whatsapp-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+
+ .facebook-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+
+.instagram-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+.ubicacion-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+ .usuario-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+
+.carrito-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+
+/*SLIDER*/
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+.swiper-slide-ps{
+    width: 350px;
+    height: 250px;
+    background-color: #000000;
+    border-radius: 25px;
+    box-shadow: 0 0 20px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+/*
+#galeria {
+            margin: 1rem auto;
+            width:100%;
+            max-width:960px;
+            column-count: 3;
+        }
+*/
