@@ -2,33 +2,27 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-
-    background: linear-gradient(to right, #54286E, #014e4c);
-    width: top;
-    height: top; 
-
+    background: linear-gradient(to right, #54286E, #014e4c);#fondo;
 }
 
 
 header {
     position: sticky;   
     background: linear-gradient(to right, #54286E, #014e4c);
-    top: 10px; 
+    height: top; 
 
 }
 
 /* Estilos para el menú de navegación */
 nav ul {
-
     font-family: Arial, sans-serif;
     list-style-type: none;
-    padding: 40px;
-    margin: 0;
+    padding: 20px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -41,9 +35,8 @@ nav ul li a {
 /* Estilos para las secciones */
 section {
     background: linear-gradient(to right, #54286E, #014e4c);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
 h2 {
@@ -66,17 +59,20 @@ footer {
 }
 img{
     border-radius: 15px;
+}
 
+#inicio{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
 }
 
 
-/* Estilos para la lista de trabajos */
-#catalogo ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-
+/*ESTILOS DEL SLIDE*/
 .swiper{
     width: 100%;
     padding: 50px 0 50px 0;
@@ -84,13 +80,12 @@ img{
 
 .swiper-slide{
     width: 350px;
-    height: 450px;
-    background-color: #000000;
+    height: 250px;
+    background: linear-gradient(to right, #014e4c, #54286E);
     border-radius: 50px;
     box-shadow: 0 0 20px;
     padding: 50px;
     text-align: center;
-
 }
 
 .icons{
@@ -141,11 +136,38 @@ img{
     
 }
 
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+
 
 /* ÍCONOS */
 
 #logo-img {
-    width: 120px; 
+    width: 100px; 
     margin: 20px;
 }
 #map-container {
@@ -170,50 +192,58 @@ img{
         width: 32px; /* Ajusta el ancho a tu preferencia */
         height: 32px; /* Ajusta el alto a tu preferencia */
     }
- .usuario-icon {
-        width: 32px; /* Ajusta el ancho a tu preferencia */
-        height: 32px; /* Ajusta el alto a tu preferencia */
+ .gobierno-icon {
+        width: 470px; /* Ajusta el ancho a tu preferencia */
+        height: 280px; /* Ajusta el alto a tu preferencia */
     }
 
-.carrito-icon {
-        width: 32px; /* Ajusta el ancho a tu preferencia */
-        height: 32px; /* Ajusta el alto a tu preferencia */
+.empresa-icon {
+        width: 220px; /* Ajusta el ancho a tu preferencia */
+        height: 180px; /* Ajusta el alto a tu preferencia */
+    }
+.corporativo-icon {
+        width: 180px; /* Ajusta el ancho a tu preferencia */
+        height: 200px; /* Ajusta el alto a tu preferencia */
+    }
+.educacion-icon {
+        width: 320px; /* Ajusta el ancho a tu preferencia */
+        height: 250px; /* Ajusta el alto a tu preferencia */
+    }
+.salud-icon {
+        width: 325px; /* Ajusta el ancho a tu preferencia */
+        height: 300px; /* Ajusta el alto a tu preferencia */
     }
 
-/*SLIDER*/
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 100%;
-  overflow: auto;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content a {
-  display: block;
-  color: #000000;
-  padding: 5px;
-  text-decoration: none;
-}
-.dropdown-content a:hover {
-  color: #FFFFFF;
-  background-color: #FFFFFF;
+/*CONTENEDOR NOSOTROS*/
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-.swiper-slide-ps{
-    width: 450px;
-    height: 250px;
-    background-color: #000000;
+.elemento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px #54286E;
+    background-color: #F9F9F9;
+    margin: 30px;
+    padding: 10px;
     border-radius: 25px;
     box-shadow: 0 0 20px;
-    padding: 50px;
-    text-align: center;
+}
 
+.titulo {
+    font-size: 40px;
+    font-family: fantasy;
+    color: #000000;
+}
+
+.descripcion {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
 }
 
