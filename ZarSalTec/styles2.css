@@ -247,3 +247,60 @@ img{
     color: #000000;
 }
 
+.section-heading-wrapper{
+    margin-bottom: 48px;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit; 
+    vertical-align: baseline;
+}
+
+.div.container.wow.fadeInUp.animated{
+    visibility: visible;
+}
+
+.section-subheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight:bold;
+    text-align: justify;
+}
+
+/* Estilo para las columnas de las imágenes */
+.row:not(.section-heading-wrapper) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilo para las columnas */
+.col-sm-4 {
+    flex: 0 0 calc(25.25% - 15px); /* 3 columnas por fila con separaciones */
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes dentro de certif */
+.certif img {
+    width: 100%; /* Imágenes ocupan el 100% del contenedor */
+    height: 100%; /* Mantener la proporción original de la imagen */
+    display: block; /* Eliminar espacio extra debajo de las imágenes */
+    max-width: 100%;
+}
+
+/* Estilo para separar las imágenes de arriba y abajo */
+.col-sm-4:nth-child(n+4) {
+    margin-top: 15px;
+}
+
+
