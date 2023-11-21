@@ -245,6 +245,7 @@ img{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000000;
+    text-align: justify;
 }
 
 .section-heading-wrapper{
@@ -272,7 +273,7 @@ img{
 .section-subheading{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: #000000;
+    color: #bbd7e6;
     font-weight:bold;
     text-align: justify;
 }
@@ -286,12 +287,12 @@ img{
 
 /* Estilo para las columnas */
 .col-sm-4 {
-    flex: 0 0 calc(25.25% - 15px); /* 3 columnas por fila con separaciones */
+    flex: 0 0 calc(15.25% - 50px); /* 3 columnas por fila con separaciones */
     margin-bottom: 20px;
 }
 
-/* Estilo para las imágenes dentro de certif */
-.certif img {
+/* Estilo para las imágenes dentro de logos */
+.logos img {
     width: 100%; /* Imágenes ocupan el 100% del contenedor */
     height: 100%; /* Mantener la proporción original de la imagen */
     display: block; /* Eliminar espacio extra debajo de las imágenes */
