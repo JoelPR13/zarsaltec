@@ -36,7 +36,7 @@ nav ul li a {
 section {
     background: linear-gradient(to right, #54286E, #014e4c);
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
 }
 
 h2 {
@@ -45,7 +45,7 @@ h2 {
 }
 
 section p {
-    font-size: 16px;
+    font-size: 10px;
     font-family: Arial, sans-serif;
 }
 
@@ -227,7 +227,6 @@ img{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border: 2px #54286E;
     background-color: #bbd7e6;
     margin: 30px;
     padding: 10px;
@@ -272,7 +271,7 @@ img{
 
 .section-subheading{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #bbd7e6;
     font-weight:bold;
     text-align: justify;
