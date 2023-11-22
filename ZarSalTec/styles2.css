@@ -10,6 +10,10 @@ header {
     position: sticky;   
     background: linear-gradient(to right, #54286E, #014e4c);
     height: top; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 
 }
 
@@ -17,7 +21,6 @@ header {
 nav ul {
     font-family: Arial, sans-serif;
     list-style-type: none;
-    padding: 20px;
 }
 
 nav ul li {
@@ -167,8 +170,7 @@ img{
 /* ÍCONOS */
 
 #logo-img {
-    width: 100px; 
-    margin: 20px;
+    width: 90px; 
 }
 #map-container {
     margin-top: 40px; /* Ajusta el valor del margen superior según tus necesidades */
@@ -220,18 +222,14 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    flex-wrap: wrap;
 }
 
 .elemento {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
     background-color: #bbd7e6;
     margin: 30px;
     padding: 10px;
     border-radius: 25px;
-    box-shadow: 0 0 20px;
 }
 
 .titulo {
