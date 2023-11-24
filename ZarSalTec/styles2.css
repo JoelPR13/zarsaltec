@@ -197,29 +197,29 @@ img{
         height: 32px; /* Ajusta el alto a tu preferencia */
     }
 .zarsaltec-icon {
-        width: 280px; /* Ajusta el ancho a tu preferencia */
-        height: 280px; /* Ajusta el alto a tu preferencia */
-    }
- .gobierno-icon {
         width: 200px; /* Ajusta el ancho a tu preferencia */
         height: 200px; /* Ajusta el alto a tu preferencia */
     }
+ .gobierno-icon {
+        width: 150px; /* Ajusta el ancho a tu preferencia */
+        height: 150px; /* Ajusta el alto a tu preferencia */
+    }
 
 .empresa-icon {
-        width: 220px; /* Ajusta el ancho a tu preferencia */
-        height: 180px; /* Ajusta el alto a tu preferencia */
-    }
-.corporativo-icon {
-        width: 180px; /* Ajusta el ancho a tu preferencia */
+        width: 200px; /* Ajusta el ancho a tu preferencia */
         height: 200px; /* Ajusta el alto a tu preferencia */
     }
+.corporativo-icon {
+        width: 150px; /* Ajusta el ancho a tu preferencia */
+        height: 150px; /* Ajusta el alto a tu preferencia */
+    }
 .educacion-icon {
-        width: 320px; /* Ajusta el ancho a tu preferencia */
-        height: 250px; /* Ajusta el alto a tu preferencia */
+        width: 180px; /* Ajusta el ancho a tu preferencia */
+        height: 180px; /* Ajusta el alto a tu preferencia */
     }
 .salud-icon {
-        width: 325px; /* Ajusta el ancho a tu preferencia */
-        height: 300px; /* Ajusta el alto a tu preferencia */
+        width: 150px; /* Ajusta el ancho a tu preferencia */
+        height: 150px; /* Ajusta el alto a tu preferencia */
     }
 
 /*CONTENEDOR NOSOTROS*/
@@ -236,10 +236,7 @@ img{
     margin: 30px;
     padding: 10px;
     border-radius: 25px;
-}
-.elemento-img {
-    background-color: #bbd7e6;
-    border-radius: 25px;
+    text-align: center;
 }
 
 .titulo {
@@ -318,7 +315,7 @@ img{
 
 
 .flex-container {
-
     display: flex;
-    
+    margin-right: 50px;
+    margin-left: 50px;
     }
