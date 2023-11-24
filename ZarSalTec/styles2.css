@@ -201,8 +201,8 @@ img{
         height: 280px; /* Ajusta el alto a tu preferencia */
     }
  .gobierno-icon {
-        width: 270px; /* Ajusta el ancho a tu preferencia */
-        height: 180px; /* Ajusta el alto a tu preferencia */
+        width: 200px; /* Ajusta el ancho a tu preferencia */
+        height: 200px; /* Ajusta el alto a tu preferencia */
     }
 
 .empresa-icon {
@@ -245,7 +245,7 @@ img{
 .titulo {
     font-size: 40px;
     font-family: fantasy;
-    color: #000000;
+    color: #bbd7e6;
 }
 
 .descripcion {
