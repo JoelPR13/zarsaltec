@@ -29,6 +29,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 30px;
+    flex-direction: column;
 }
 
 nav ul li a {
@@ -167,8 +168,6 @@ img{
     color: #FFFFFF;
     background-color: #FFFFFF;
   }
-
-
 
 /* ÍCONOS */
 
@@ -314,3 +313,8 @@ img{
 }
 
 
+.flex-container {
+
+    display: flex;
+    
+    }
