@@ -201,8 +201,8 @@ img{
         height: 280px; /* Ajusta el alto a tu preferencia */
     }
  .gobierno-icon {
-        width: 470px; /* Ajusta el ancho a tu preferencia */
-        height: 280px; /* Ajusta el alto a tu preferencia */
+        width: 270px; /* Ajusta el ancho a tu preferencia */
+        height: 180px; /* Ajusta el alto a tu preferencia */
     }
 
 .empresa-icon {
@@ -235,6 +235,10 @@ img{
     background-color: #bbd7e6;
     margin: 30px;
     padding: 10px;
+    border-radius: 25px;
+}
+.elemento-img {
+    background-color: #bbd7e6;
     border-radius: 25px;
 }
 
