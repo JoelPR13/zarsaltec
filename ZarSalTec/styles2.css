@@ -14,8 +14,8 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    /*background:linear-gradient(to right, #54286E, #014e4c);*/
-    background:linear-gradient(to right, #000000, #014e4c);
+    background:linear-gradient(to right, #54286E, #014e4c);
+    /*background:linear-gradient(to right, #000000, #014e4c);*/
     /*background:linear-gradient(to right, #000000, #54286E);*/
     /*background: #000000;*/
 }
